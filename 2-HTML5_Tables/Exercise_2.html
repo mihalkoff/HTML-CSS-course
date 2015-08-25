@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Exercise 2</title>
+	</head>
+	<body>
+		<form method="get">
+			<label for="nameInput">Member name: </label>
+			<input type="text" id="nameInput" required="required"/> *req
+			<br/>
+			<label for="emailInput">Email: </label>
+			<input id="emailInput" 
+				type="email" 
+				required="required" 
+				pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"
+				placeholder="sample@email.com"/> *req
+			<br/>
+			<label for="schoolInput">School: </label>
+			<input  type="text" id="schoolInput" required="required"/> *req
+			<br/>
+			<br/>
+			<input type="image" src="images/submit.png" name="submitBtn" alt="Submit"/>
+		</form>
+	</body>
+</html>

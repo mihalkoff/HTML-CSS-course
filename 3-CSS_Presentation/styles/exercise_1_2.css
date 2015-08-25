@@ -1,0 +1,102 @@
+div {
+width: 480px;
+border: 10px solid #AEFF0D;
+border-radius: 10px;
+}
+
+table{
+font-family: Arial, sans-serif;
+white-space: nowrap;
+font-size: 13px;
+border: 0px;
+}
+
+th{
+background-image: url("../images/gradient.png");
+color: white;
+font-family: Tahoma, Arial, sans-serif;
+text-align: left;
+padding: 5px;
+font-size: 12px;
+border-bottom: 2px solid #287A00;
+border-left: 2px solid #287A00;
+border-right: 2px solid #6CDD2A;
+border-top: 2px solid #6CDD2A;
+}
+
+td {
+padding: 5px;
+}
+
+.white{
+background-color: white;
+}
+
+.grey{
+background-color: #ECECD8;
+}
+
+.column1{
+width: 150px;
+}
+
+.column2{
+width: 100px;
+}
+
+.column3{
+width: 140px;
+}
+
+.column4{
+width: 50px;
+}
+
+.germanyFlag {
+background-image: url("../images/germany.gif");
+background-position: 5px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+
+.mexicoFlag {
+background-image: url("../images/mexico.gif");
+background-position: 5px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+
+.ukFlag {
+background-image: url("../images/uk.gif");
+background-position: 5px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+
+.cell{
+border-left: 2px solid #C7C5AE;
+border-right: 0px;
+border-top: 0px;
+border-bottom: 0px;
+}
+
+.cell_last{
+border-left: 2px solid #C7C5AE;
+border-right: 2px solid #C7C5AE;
+border-top: 0px;
+border-bottom: 0px;
+}
+
+.cell_bottom{
+border-left: 2px solid #C7C5AE;
+border-right: 0px;
+border-top: 0px;
+border-bottom: 2px solid #C7C5AE;
+}
+
+.cell_bottom_last{
+border-left: 2px solid #C7C5AE;
+border-right: 2px solid #C7C5AE;
+border-top: 0px;
+border-bottom: 2px solid #C7C5AE;
+}

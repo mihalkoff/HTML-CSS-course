@@ -1,0 +1,167 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Exercise 3</title>
+	</head>
+	<body>
+		<form method="get">
+			<table border="1" cellspacing="0" cellpadding="5">
+				<tfoot>
+					<tr>
+						<th colspan="4">
+							<input type="submit" name="submit" value="Submit"/>
+							<input type="reset" value="Clear This Form"/>
+						</th>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<th><label for="lname">Last name</label></th>
+						<td colspan="3">
+							<input type="text" name="lname" id="lname" placeholder="Nakov" required="required"/>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="fname">First name</label></th>
+						<td colspan="3">
+							<input type="text"  name="fname" id="fname" placeholder="Svetlin" required="required"/>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="address">Address</label></th>
+						<td colspan="3">
+							<textarea name="address" id="address" cols="30" rows="2" placeholder="17 Hristo Botev Str., floor 3, ap.12"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="city">City</label></th>
+						<td>
+							<input type="text" name="city" id="city" placeholder="Kaspichan" required="required"/>
+						</td>
+						<th><label for="state">State</label></th>
+						<td>
+							<input type="text" name="state" id="state" pattern="[A-Za-z]{3}" maxlength="3" size="3"/>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="zip">Zip/Postal code</label></th>
+						<td colspan="3">
+							<input type="text" name="zip" id="zip" pattern="[0-9]{4}" maxlength="4" size="4"/>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="country">Country</label></th>
+						<td colspan="3">
+							<select name="country" id="country">
+								<option value="Bulgaria" selected="selected">Bulgaria</option>
+								<option value="Croatia">Croatia</option>
+								<option value="Greece">Greece</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="phone">Phone (country code, area code, number)</label></th>
+						<td colspan="3">
+							(+
+							<input type="text" 
+								name="phone" 
+								id="phone"
+								pattern="[0-9]{3}" 
+								maxlength="3" 
+								size="3" 
+								placeholder="359"
+								required="required"/>
+							)
+							<input type="text" 
+								pattern="[0-9]{2}" 
+								maxlength="2" 
+								size="2" 
+								placeholder="88"
+								required="required"/>
+							<input type="text" 
+								pattern="[0-9]{7}" 
+								maxlength="7" 
+								size="7" 
+								placeholder="8334343"
+								required="required"/>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="email">E-mail</label></th>
+						<td colspan="3">
+							<input type="email"
+								name="email" 
+								id="email"
+								required="required" 
+								pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"
+								size="45"
+								placeholder="nakov@kaspichan.org"/>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="month">Birth date</label></th>
+						<td colspan="3">
+							<label for="month">Month</label>
+							<input type="text" 
+								name="month" 
+								id="month"
+								pattern="[0-9]{2}" 
+								maxlength="2" 
+								size="2" 
+								required="required"
+								placeholder="06"/>
+							<label for="day">Day</label>
+							<input type="text" 
+								name="day" 
+								id="day"
+								pattern="[0-9]{2}" 
+								maxlength="2" 
+								size="2" 
+								required="required"
+								placeholder="14"/>
+							<label for="year">Year (4 digit)</label>
+							<input type="text" 
+								name="year" 
+								id="year"
+								pattern="[0-9]{4}" 
+								maxlength="4" 
+								size="4" 
+								required="required"
+								placeholder="1980"/>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="gender">Gender</label></th>
+						<td colspan="3">
+							<select name="gender" id="gender">
+								<option value="Male" selected="selected">Male</option>
+								<option value="Female">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Starting date</th>
+						<td colspan="3">
+							<input name="starting date" type="radio" id="spring" value="spring" checked="checked"/>
+							<label for="spring">Spring 2006</label>
+							<input name="starting date" type="radio" id="summer" value="summer"/>
+							<label for="summer">Summer 2006</label>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="comments">Comments/Questions</label></th>
+						<td colspan="3">
+							<textarea 
+								name="comments" 
+								id="comments" 
+								cols="30" 
+								rows="3" 
+								placeholder="Please send me more information about the lodging."></textarea>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

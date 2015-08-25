@@ -1,0 +1,44 @@
+div {
+width: 254px;
+padding: 10px;
+background-color: #F0F0F0;
+border: 10px solid #90CAD7;
+border-radius: 10px;
+}
+
+a {
+color: #7DCAE3;
+padding-right:30px;
+}
+
+#field {
+padding: 0px;
+margin: 0px;
+border: 0;
+width: 260px;
+font-family: Tahoma, sans;
+font-size: 14px;
+color: #9AA0AC;
+}
+
+#username {
+border-radius: 4px;
+width: 250px;
+}
+
+#password {
+border-radius: 4px;
+width: 250px;
+}
+
+#submitButton {
+color: white;
+width: 100px;
+height: 30px;
+background-color: #6BC2DE;
+border: 0px;
+border-radius: 5px;
+background-image: url("../images/lock.png");
+background-repeat: no-repeat;
+background-position: 10px 8px;
+}

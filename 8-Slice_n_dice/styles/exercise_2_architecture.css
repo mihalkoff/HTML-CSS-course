@@ -1,0 +1,260 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #dfd3b5 url("../images/body-tile.png") repeat-x top left;
+}
+
+img {
+	display: block;
+	border: 0;
+}
+
+ul {
+	font: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #74653d;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* site wrap *********************************************************/
+
+#site-wrap {
+	width: 778px;
+	margin: 20px auto;
+	padding-bottom: 10px;
+	background: #9a8a65 url("../images/wrap-tile.png") repeat-x top left;
+	border-radius: 9px;
+	font: 11px Tahoma, Verdana, sans-serif;
+	color: #74653d;
+}
+
+/* Header ****************************************/
+
+header {
+	height: 279px;
+	background: url("../images/header.png") top left no-repeat;
+}
+
+header img {
+	margin-left: 10px;
+}
+
+/* content ****************************************************/
+
+.content {
+	margin: 0 9px;
+	background-color: #fff;
+	min-height: 0;
+	_zoom: 1;
+}
+
+.nav-aside-wrap {
+	float: left;
+	width: 234px;
+	margin-top: -147px;
+	margin-bottom: 30px;
+}
+
+/* nav ****************************************/
+
+nav {
+	padding: 20px 0 18px 0;
+	background-color: #cdc4aa;
+	border-radius: 10px 10px 0 0;
+}
+
+nav ul {
+	background-color: #2a2a2a;
+}
+
+nav li {
+	padding-top: 10px;
+	border-bottom: 1px solid #959595;
+}
+
+.current a {
+	background: url("../images/arrow-yellow.gif") right center no-repeat;
+	color: #b69a64;
+}
+
+nav a {
+	display: block;
+	background: url("../images/arrow.gif") right center no-repeat;
+	width: 150px;
+	margin-left: 30px;
+	padding: 0 5px 1px 8px;
+	border-left: 1px solid #959595;
+	font: 16px Times New Roman, serif;
+	color: #fff;
+}
+
+/* div border top *******************************/
+
+.nav-aside-wrap .border-top{
+	height: 3px;
+	background: #f7f3e7 url("../images/aside-border-top.png") top right no-repeat;
+}
+
+/* aside ***************************************/
+
+aside {
+	padding-top: 20px;
+	background: #fdfbf2 url("../images/aside-tile.png") top right repeat-y;
+	border-radius: 0 0 12px 0;
+}
+
+aside ul {
+	margin: 0 25px 6px 30px;
+}
+
+aside li {
+	text-align: justify;
+}
+
+aside ul h3 {
+	padding: 15px 0;
+	font-size: 11px;
+}
+
+aside li:last-child {
+	margin-top: 10px;
+	text-align: right;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+aside a {
+	display: block;
+	padding-right: 10px;
+}
+
+.border-bottom {
+	padding-bottom: 14px;
+	background: url("../images/border-bottom.gif") bottom left no-repeat;
+}
+
+.contact {
+	height: 97px;
+	background: url("../images/contact.png") no-repeat;
+	font-family: Verdana, sans-serif;
+	color: #000;
+}
+
+.contact p {
+	padding: 7px 0 0 20px;
+}
+
+/* article *************************************************/
+
+article {
+	float: right;
+	width: 490px;
+	min-height: 410px;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+article a{
+	text-decoration: underline;
+}
+
+article h2 {
+	margin: 40px 0 15px 0;
+	border-bottom: 1px solid #c4ae7c;
+	font: 20px Arial Narrow, Arial, sans-serif;
+	color: #be8b06;
+}
+
+.bottom-link a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.welcome {
+	margin-right: 20px;
+	font-family: Verdana, sans-serif;
+}
+
+.welcome-img {
+	float: left;
+	margin: 0 20px 10px 0;
+	padding: 5px;
+	border: 5px solid #e7e0ce;
+	border-radius: 10px;
+}
+
+.welcome p {
+	margin-bottom: 15px;
+}
+
+.welcome .bottom-link {
+	margin-top: -25px;
+	text-align: right;
+}
+
+article h3 {
+	margin: 0 0 15px 0;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #c4ae7c;
+	font: 14px Verdana, sans-serif;
+	color: #c7a854;
+}
+
+.profile {
+	margin-right: 20px;
+}
+
+.corporate, .industrial {
+	float: left;
+	width: 220px;
+	margin-right: 15px;
+}
+
+.profile-img {
+	float: left;
+	margin: 0 15px 0 0;
+	padding: 4px;
+	background: url("../images/img-border.gif") center 80px no-repeat;;
+	border: 5px solid #e7e0ce;
+	border-radius: 10px;
+	font: bold 10px Tahoma, sans-serif;
+	text-align: center;
+	color: #907b40;
+}
+
+.profile-img img {
+	margin-bottom: 8px;
+}
+
+.profile .bottom-link {
+	text-align: right;
+}
+
+/* Footer **************************************************/
+
+footer {
+	margin: 0 9px;
+	background-color: #dfd4b5;
+	text-align: center;
+	line-height: 59px;
+}
+
+footer a {
+	color: #75643b;
+}

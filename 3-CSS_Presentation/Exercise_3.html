@@ -1,0 +1,209 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Exercise 3</title>
+		<link rel="stylesheet" type="text/css" href="styles/exercise_3.css">
+	</head>
+	<body>
+		<form method="get" action="">
+			<table class="table-main" cellspacing="0">		
+				<thead>
+					<tr>
+						<td class="list">
+							<ul>
+								<li><a href="#"><span>V</span>iew</a></li>
+								<li><a href="#"><span>E</span>dit</a></li>
+								<li><a href="#"><span>H</span>elp</a></li>
+							</ul>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="td-bottom">
+							<table class="table-inside" cellspacing="5">
+								<tbody>
+									<tr>
+										<td colspan="9">
+											<input type="text" id="result" value="8854455"/>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="9">
+											<table class="table-binary" cellspacing="0">
+												<tbody>
+													<tr>
+														<td>0000</td>
+														<td>0000</td>
+														<td>0000</td>
+														<td>0000</td>
+														<td>0000</td>
+														<td>0000</td>
+														<td>0000</td>
+														<td>0000</td>
+													</tr>
+													<tr>
+														<td class="left">63</td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td class="left">47</td>
+														<td></td>
+														<td></td>
+														<td class="right">32</td>
+													</tr>
+													<tr>
+														<td>0000</td>
+														<td>0000</td>
+														<td>1000</td>
+														<td>0111</td>
+														<td>0001</td>
+														<td>1011</td>
+														<td>1011</td>
+														<td>0111</td>
+													</tr>
+													<tr>
+														<td class="left">31</td>
+														<td></td>
+														<td></td>
+														<td></td>
+														<td class="left">15</td>
+														<td></td>
+														<td></td>
+														<td class="right">0</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td rowspan="3">
+											<table class="table-hex">
+												<tbody>
+													<tr>
+														<td>
+															<input type="radio" name="hex"/>
+															Hex
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<input type="radio" name="hex" checked="checked"/>
+															Dec
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<input type="radio" name="hex"/>
+															Oct
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<input type="radio" name="hex"/>
+															Bin
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+										<td>
+											<input type="text" id="additional" value=""/>
+										</td>
+										<td><input id="other-buttons" type="button" value="Mod"/></td>
+										<td><input id="capitals" type="button" value="A"/></td>
+										<td><input id="M" type="button" value="MC"/></td>
+										<td><input id="M" type="button" value="MR"/></td>
+										<td><input id="M" type="button" value="MS"/></td>
+										<td><input id="M" type="button" value="M+"/></td>
+										<td><input id="M" type="button" value="M-"/></td>
+									</tr>
+									<tr>
+										<td><input id="other-buttons" type="button" value="("/></td>
+										<td><input id="other-buttons" type="button" value=")"/></td>
+										<td><input id="capitals" type="button" value="B"/></td>
+										<td><input id="other-buttons" type="button" value="&larr;"/></td>
+										<td><input id="other-buttons" type="button" value="CE"/></td>
+										<td><input id="other-buttons" type="button" value="C"/></td>
+										<td><input id="other-buttons" type="button" value="&plusmn;"/></td>
+										<td><input type="button" value="&radic;"/></td>
+									</tr>
+									<tr>
+										<td><input id="other-buttons" type="button" value="RoL"/></td>
+										<td><input id="other-buttons" type="button" value="RoR"/></td>
+										<td><input id="capitals" type="button" value="C"/></td>
+										<td><input id="numbers" type="button" value="7"/></td>
+										<td><input id="numbers" type="button" value="8"/></td>
+										<td><input id="numbers" type="button" value="9"/></td>
+										<td><input id="other-buttons" type="button" value="/"/></td>
+										<td><input type="button" value="%"/></td>
+									</tr>
+									<tr>
+										<td rowspan="3">
+											<table class="table-word">
+												<tbody>
+													<tr>
+														<td>
+															<input type="radio" name="word" checked="checked"/>
+															Qword
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<input type="radio" name="word"/>
+															Dword
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<input type="radio" name="word"/>
+															Word
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<input type="radio" name="word"/>
+															Byte
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+										<td><input id="other-buttons" type="button" value="Or"/></td>
+										<td><input id="other-buttons" type="button" value="Xor"/></td>
+										<td><input id="capitals" type="button" value="D"/></td>
+										<td><input id="numbers" type="button" value="4"/></td>
+										<td><input id="numbers" type="button" value="5"/></td>
+										<td><input id="numbers" type="button" value="6"/></td>
+										<td><input id="other-buttons" type="button" value="*"/></td>
+										<td><input type="button" value="1/x"/></td>
+									</tr>
+									<tr>
+										<td><input id="other-buttons" type="button" value="Lsh"/></td>
+										<td><input id="other-buttons" type="button" value="Rsh"/></td>
+										<td><input id="capitals" type="button" value="E"/></td>
+										<td><input id="numbers" type="button" value="1"/></td>
+										<td><input id="numbers" type="button" value="2"/></td>
+										<td><input id="numbers" type="button" value="3"/></td>
+										<td><input id="other-buttons" type="button" value="-"/></td>
+										<td rowspan="2"><input id="equals" type="button" value="="/></td>
+									</tr>
+									<tr>
+										<td><input id="other-buttons" type="button" value="Not"/></td>
+										<td><input id="other-buttons" type="button" value="And"/></td>
+										<td><input id="capitals" type="button" value="F"/></td>
+										<td colspan="2"><input id="zero" type="button" value="0"/></td>
+										<td><input id="other-buttons" type="button" value=","/></td>
+										<td><input id="other-buttons" type="button" value="+"/></td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

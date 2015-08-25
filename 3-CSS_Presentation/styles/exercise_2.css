@@ -1,0 +1,58 @@
+.table-main th {
+text-align: left;
+font-size: 20px;
+}
+
+.table-main {
+width: 900px;
+border: 4px double;
+border-radius: 10px;
+padding: 10px;
+}
+
+.table-inside {
+background-color: #2277FF;
+border: 20px solid #2277FF;
+border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.image{
+border: 1px solid #2277FF;
+border-radius: 6px;
+}
+
+.table-inside li{
+list-style-type: none;
+}
+
+.playlist ul {
+overflow-y: scroll;
+}
+
+.playlist a {
+line-height: 35px;
+text-decoration: none;
+color: #226B62;
+}
+
+.image {
+width: 495px;
+height: 370px;
+background-image: url("../images/yoda.jpg");
+background-repeat: no-repeat;
+}
+
+#playback {
+width: 400px;
+}
+
+.buttons li{
+display: inline;
+padding-right: 10px;
+}
+
+.buttons input[type=button] {
+width: 75px;
+}

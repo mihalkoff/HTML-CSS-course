@@ -1,0 +1,71 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+ul {
+list-style-type: none;
+background-color: #F0F0F0;
+height: 95px;
+width: 450px;
+margin: auto;
+border: 10px solid #7F7F7F;
+border-radius: 10px;
+}
+
+li {
+display: inline-block;
+}
+
+a {
+display: inline-block;
+padding-top: 65px;
+padding-right: 25px;
+padding-left: 25px;
+text-decoration: none;
+font-family: Tahoma, sans-serif;
+font-size: 10px;
+color: #92939D;
+}
+
+a:hover, a:active {
+color: white;
+}
+
+.sidebar {
+display: inline-block;
+background-image: url(../images/sidebar.png);
+background-repeat: no-repeat;
+background-position: right center;
+height: 95px;
+}
+
+.dashboard {
+background-image: url(../images/dashboard.png);
+background-repeat: no-repeat;
+background-position: center 20px;
+}
+
+.tasks {
+background-image: url(../images/tasks.png);
+background-repeat: no-repeat;
+background-position: center 20px;
+}
+
+.users {
+background-image: url(../images/users.png);
+background-repeat: no-repeat;
+background-position: center 20px;
+}
+
+.reports {
+background-image: url(../images/reports.png);
+background-repeat: no-repeat;
+background-position: center 20px;
+}
+
+.errorpages {
+background-image: url(../images/errorpages.png);
+background-repeat: no-repeat;
+background-position: center 20px;
+}

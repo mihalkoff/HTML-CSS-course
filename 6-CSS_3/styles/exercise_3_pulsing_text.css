@@ -1,0 +1,88 @@
+/* webkit keyframes ********************************************************/
+
+@-webkit-keyframes pulsing-text {
+	0% {
+		color: green; 	
+		font-size: 40px;
+	}
+	
+	25% {
+		color: yellow; 
+		font-size: 45px;
+	}
+	
+	50% {
+		color: red; 
+		font-size: 50px;
+	}
+	
+	75% {
+		color: lightgreen; 
+		font-size: 55px;
+	}
+	
+	100% {
+		color: blue; 
+		font-size: 60px;
+	}
+}
+
+/* mozilla keyframes **************************************************************/
+
+@-moz-keyframes pulsing-text {
+	0% {
+		color: green; 	
+		font-size: 40px;
+	}
+	
+	25% {
+		color: yellow; 
+		font-size: 45px;
+	}
+	
+	50% {
+		color: red; 
+		font-size: 50px;
+	}
+	
+	75% {
+		color: lightgreen; 
+		font-size: 55px;
+	}
+	
+	100% {
+		color: blue; 
+		font-size: 60px;
+	}
+}
+
+/* animated text ************************************************/
+
+div {
+width: 800px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 200px auto;
+text-align: center;
+}
+
+#animation {
+font-size:40px;
+color: black; 
+text-shadow: rgba(20, 20, 20, 0.5) 1px 1px 5px;
+}
+
+#animation:hover {
+	cursor: pointer;
+	-webkit-animation-name: pulsing-text;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;	
+
+	-moz-animation-name: pulsing-text;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: ease-in-out;
+}

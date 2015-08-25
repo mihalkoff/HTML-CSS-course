@@ -1,0 +1,183 @@
+/* table main ********************************************/
+
+.table-main {
+border: 1px solid #737F8D;
+border-radius: 2px;
+cursor: default;
+}
+
+.list {
+border-bottom: 1px solid #BEC3D1;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#f6f8fc), color-stop(49%,#e5eaf5), color-stop(50%,#dee3f3), color-stop(100%,#d5ebfb));
+}
+
+.list a:hover {
+cursor: default;
+}
+
+.table-main ul {
+margin: 0px;
+padding-left: 5px;
+}
+
+.table-main li{
+list-style-type: none;
+display: inline;
+padding-right: 10px;
+}
+
+.table-main a {
+font-family: Verdana, sans-serif;
+font-size: 12px;
+text-decoration: none;
+color: black;
+}
+
+.table-main span {
+text-decoration: underline;
+}
+
+.td-bottom {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(14%,#f5fbff), color-stop(20%,#E8F0F9), color-stop(100%,#D9E4F1));
+}
+
+/* table inside ****************************************************/
+
+.table-inside {
+margin: 5px;
+}
+
+.table-inside td {
+border: 1px solid #9CA9B8;
+border-radius: 2px;
+}
+
+/* result *******************************************************/
+
+#result {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E5EFFB), color-stop(20%,#ECF3FC), color-stop(54%,#FDFEFF));
+font-family: Consolas, Tahoma, sans-serif;
+font-size: 30px;
+padding-top: 20px;
+padding-right: 5px;
+text-align: right;
+width: 438px;
+height: 40px;
+border: 0px;
+cursor: default;
+}
+
+/* table binary *********************************************/
+
+.table-binary {
+width: 438px; 
+font-family: Consolas, Tahoma, sans-serif;
+font-size: 12px;
+color: #693977;
+}
+
+.table-binary td {
+border: 0px;
+padding-left: 13px;
+}
+
+.left {
+padding-left: 0px;
+color: #777676;
+}
+
+.right {
+padding-right: 14px;
+text-align: right;
+color: #777676;
+}
+
+/* table hex ********************************************************/
+
+.table-hex td{
+width: 80px;
+font-family: Verdana, sans-serif;
+font-size: 11px;
+border: 0px;
+color: #693977;
+}
+
+/* table word ********************************************************/
+
+.table-word td{
+width: 80px;
+font-family: Verdana, sans-serif;
+font-size: 11px;
+border: 0px;
+color: #693977;
+}
+
+/* buttons *****************************************************/
+
+.table-inside input[type=button] {
+background-color: #E0E9F5;
+font-family: Verdana, sans-serif;
+font-size: 11px;
+border: 0px;
+width: 35px;
+height: 25px;
+color: #693977;
+}
+
+/* additional button ****************************************/
+
+#additional {
+width: 31px;
+height: 20px;
+border: 0px;
+cursor: default;
+background-color: #E0E9F5;
+}
+
+/* capital letters ********************************************/
+
+#capitals {
+font-size: 14px;
+}
+
+/* buttons ********************************/
+
+#numbers {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#f5f9fd), color-stop(50%,#f1f5f9), color-stop(53%,#eaf1f9), color-stop(100%,#eef6fb));
+}
+
+#other-buttons {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#f6f8fc), color-stop(50%,#e5eaf5), color-stop(53%,#d6e1ee), color-stop(100%,#d5ebfb));
+}
+
+#zero {
+width: 79px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#f6f8fc), color-stop(50%,#e5eaf5), color-stop(52%,#ecf3fa), color-stop(100%,#d5ebfb));
+}
+
+#equals {
+height: 59px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#f6f8fc), color-stop(50%,#e5eaf5), color-stop(52%,#ecf3fa), color-stop(100%,#d5ebfb));
+}
+
+/* hover ******************************************/
+
+#numbers:hover {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#fef2e6), color-stop(50%,#fde9d2), color-stop(53%,#fbdf83), color-stop(100%,#fbec8e));
+}
+
+#other-buttons:hover {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#fef2e6), color-stop(50%,#fde9d2), color-stop(53%,#fbdf83), color-stop(100%,#fbec8e));
+}
+
+#zero:hover {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#fef2e6), color-stop(50%,#fde9d2), color-stop(53%,#fbdf83), color-stop(100%,#fbec8e));
+}
+
+#equals:hover {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#fef2e6), color-stop(50%,#fde9d2), color-stop(53%,#fbdf83), color-stop(100%,#fbec8e));
+}
+
+#M:hover {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#fef2e6), color-stop(50%,#fde9d2), color-stop(53%,#fbdf83), color-stop(100%,#fbec8e));
+}

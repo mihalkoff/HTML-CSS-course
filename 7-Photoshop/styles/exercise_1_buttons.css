@@ -1,0 +1,40 @@
+* {
+margin:0;
+padding:0;
+}
+
+/* div **************************************/
+
+div {
+margin: 30px auto;
+width: 700px;
+text-align: center;
+height: 100px;
+}
+
+/* a.button ***********************************************/
+
+a.button  {
+background: transparent url("../images/btn-right.png") no-repeat scroll top right;
+color: black;
+display: inline-block;
+font: normal 18px Tahoma, Arial, sans-serif;
+height: 55px;
+margin-right: 6px;
+padding-right: 32px;
+text-decoration: none;
+}
+ 
+/* a. button span ******************************************/
+
+a.button span  {
+background: transparent url("../images/btn-left.png") no-repeat;
+display: inline-block;
+line-height: 45px;
+padding: 2px 0 8px 28px;
+} 
+
+a.button:active {
+color: #646de3;
+
+}

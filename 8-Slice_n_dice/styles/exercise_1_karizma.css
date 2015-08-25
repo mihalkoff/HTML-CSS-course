@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* clear floats *****************************/
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* ul *****************************************/
+
+ul {
+	list-style-type: none;
+}
+
+/* a ******************************************/
+
+a {
+	text-decoration: none;
+}
+
+/* img **************************************/
+
+img {
+	display: block;
+	border: 1px solid #000;
+}
+
+/* site wrap ****************************/
+
+#site-wrap {
+	margin: 20px auto;
+	width: 900px;
+	border: 2px solid #e1ebf7;
+	background: #e6def5;
+	font: 12px Tahoma, Arial, sans-serif;
+}
+
+/* Header main ********************************/
+
+.header-main {
+	height: 47px;
+	background: #ffffff url("../images/header-main-pic.png") no-repeat right center;
+	min-height: 0;
+	_zoom: 1;
+}
+
+.header-main .name {
+	float: left;
+	width: 120px;
+	background: #59518c;
+	color: #ffffff;
+	font: italic 14px Franklin Gothic Book, Century Gothic, Tahoma, sans-serif;
+	line-height: 47px;
+	text-align: center;
+}
+
+.header-main .heading {
+	float: right;
+	margin: 12px 100px 0 0;
+	font: 10px Franklin Gothic Book, Century Gothic, Tahoma, sans-serif; 
+	color: #5c5a90;
+	text-shadow: -1px 1px 3px #5c5a90;
+	text-transform: uppercase;
+}
+
+/* middle-wrapper *************************************************************************/
+
+.middle-wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 0;
+	_zoom: 1;
+}
+
+/* nav main ****************************************************************************/
+
+.nav-main {
+	float: left;
+	padding-left: 10px;
+	width: 110px;
+	background-color: #f2f3f7;
+	padding-bottom: 9000px;
+	margin-bottom: -9000px;
+	min-height: 0;
+	_zoom: 1;
+}
+
+.nav-main ul {
+	margin: 0;
+	padding: 0;
+	white-space: normal;
+	word-break: break-all;
+}
+
+.nav-main li{
+	background: url("../images/bullet.gif") left center no-repeat;
+	padding-left: 8px;
+}
+
+.nav-main a {
+	color: #006699;
+}
+
+.nav-main h3 {
+	color: #424284;
+	padding-top: 15px;
+}
+
+/* section **************************************************************************/
+
+section {
+	float: left;
+	width: 558px;
+	margin: 2px 0 2px 2px;
+	min-height: 0;
+	_zoom: 1;
+}
+
+section nav {
+	background: url("../images/star.png") 5px center no-repeat;
+	line-height: 24px;
+}
+
+section ul {
+	font: 0;
+}
+
+section li {
+	float: left;
+	padding-left: 5px;
+}
+
+section li a {
+	color: #0000cc;
+}
+
+section nav h3 {
+	float: left;
+	padding-left: 25px;
+	color: #6d64a3;
+}
+
+section article {
+	background-color: #f9f4fd;
+	padding: 10px;
+	color: #4b3e82;
+}
+
+section article img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+section article h2 {
+	margin-top: 25px;
+	color: #c41e89;
+	font-weight: normal;
+	font-size: 21px;
+}
+
+section .bold {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+section footer {
+	background-color: #f9f4fd;
+	padding-left: 10px;
+	padding-bottom: 9000px;
+	margin-bottom: -9000px;
+}
+
+section footer li{
+	background: url("../images/orange-bullet.gif") left center no-repeat;
+	padding-left: 8px;
+}
+
+section .space {
+	position: absolute;
+	width: 558px;
+	background-color: #e6def5;
+	right: 220px;
+	bottom: 0;
+	height: 2px; 
+	font-size:0;
+}
+
+/* aside ****************************************************************************/
+
+aside {
+	float: left;
+	width: 215px;
+	margin: 2px 1px 0 4px;
+	background-color: #f9f4fd;
+	padding-bottom: 9000px;
+	margin-bottom: -9000px;
+	min-height: 0;
+	_zoom: 1;
+}
+
+aside ul li {
+	margin: 10px 10px 0 10px;
+	min-height: 0;
+	_zoom: 1;
+}
+
+aside img {
+	float: left;
+	margin-right: 10px;
+}
+
+aside footer ul{
+	display: inline-block;
+	margin: 10px;
+}
+
+aside footer li{
+	margin: 0;
+	background: url("../images/orange-bullet.gif") left center no-repeat;
+	padding-left: 8px;
+}
+
+aside footer a {
+	color: #0000cc;
+}
+
+aside .space {
+	position: absolute;
+	width: 215px;
+	background-color: #e6def5;
+	right: 1px;
+	bottom: 0;
+	height: 2px; 
+	font-size:0;
+}
+
+/* footer main ********************************************************************/
+
+.footer-main {
+	height: 32px;
+	background-color: #59518c;
+	text-align: center;
+}
+
+.footer-main a {
+	color: #ffffff;
+	line-height: 32px;
+	text-decoration: none;
+}

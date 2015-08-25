@@ -1,0 +1,165 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/* animation div *************************************/
+
+#animation {
+position: relative;
+border: 1px solid red;
+margin: 20px auto;
+width: 1000px;
+height: 600px;
+border-radius: 25px;
+background-color: #549FC9;
+overflow: hidden;
+}
+
+/* sun ***********************************************/
+
+#sun {
+position: absolute;
+top: 165px;
+left: 35px;
+background: url(../images/sun.png) no-repeat;
+width: 150px;
+height: 127px;
+}
+
+/* sea ***********************************************/
+
+#sea {
+position: relative;
+top: 320px;
+left: 0px;
+background-color: #0B8EE3;
+height: 280px;
+border-radius: 0 0 25px 25px;
+}
+
+/* mountain 1 ***********************************************/
+
+#mountain-1 {
+position: absolute;
+top: 95px;
+left: -50px;
+background: url(../images/mountain-1.png) no-repeat;
+width: 500px;
+height: 228px;
+}
+
+/* mountain 2 ***********************************************/
+
+#mountain-2 {
+position: absolute;
+bottom: 200px;
+right: -50px;
+background: url(../images/mountain-2.png) no-repeat;
+width: 500px;
+height: 228px;
+}
+
+/* boat ***********************************************/
+
+#boat {
+position: absolute;
+bottom: 50px;
+right: -300px;
+background: url(../images/boat.png) no-repeat;
+width: 300px;
+height: 238px;
+}
+
+/* keyframes *****************************************************/
+
+@-webkit-keyframes sky {
+	0% {
+		background-color: #549FC9;
+	}
+	
+	10% {
+		background-color: #64C0EF;
+	}
+	
+	50% {
+		background-color: #6ACCFF;
+	}
+	
+	80% {
+		background-color: #64C0EF;
+	}
+	
+	100% {
+		background-color: #549FC9;
+	}
+}
+
+@-webkit-keyframes sun {
+	0% {
+		top: 160px;
+		left: 35px;
+	}
+	
+	50% {
+		top: 20px;
+		left: 500px;
+	}
+	
+	100% {
+		top: 100px;
+		left: 1000px;
+	}
+}
+
+@-webkit-keyframes boat {
+  0% {
+	bottom: 50px;
+	right: -300px;
+  }
+  
+  50% {
+    -webkit-transform: rotateY(0deg);
+    bottom: 150px;
+    right: 1000px;
+  }
+  
+  51% {
+    -webkit-transform: rotateY(180deg);
+    bottom: 150px;
+    right: 1100px;
+
+  }
+  
+  100% {
+    -webkit-transform: rotateY(180deg);
+    bottom: 50px;
+    right: -300px;
+  }
+}
+
+/* animation *******************************************************/
+
+#animation {
+	-webkit-animation-name: sky;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-timing-function: linear;	
+}
+
+#animation #sun {
+	-webkit-animation-name: sun;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-timing-function: linear;	
+}
+
+#animation #boat {
+	-webkit-animation-name: boat;
+	-webkit-animation-duration: 60s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-timing-function: linear;	
+}

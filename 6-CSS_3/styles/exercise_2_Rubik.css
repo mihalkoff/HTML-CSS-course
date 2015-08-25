@@ -1,0 +1,409 @@
+/* h2 *****************************************/
+
+body h2 {
+padding-left: 190px;
+}
+
+/* Rubik Cube **********************************************/
+
+#transDemo3 {
+-webkit-perspective: 800;
+-webkit-perspective-origin: 50% 100px;
+-moz-perspective: 800;
+-moz-perspective-origin: 50% 100px;
+-o-perspective: 800;
+-o-perspective-origin: 50% 100px;
+-ms-perspective: 800;
+-ms-perspective-origin: 50% 100px;	
+perspective: 800;
+perspective-origin: 50% 100px;	
+margin:150px 0 0 150px;
+width:400px;
+float:left;	
+}
+
+#transDemo3 #cube {
+position: relative;
+margin: 0 auto;
+height: 198px;
+width: 198px;
+-webkit-transform-style: preserve-3d;
+-webkit-transform-origin:(50% 100px 0);
+-moz-transform-style: preserve-3d;
+-moz-transform-origin:(50% 100px 0);
+-o-transform-style: preserve-3d;
+-o-transform-origin:(50% 100px 0);
+-ms-transform-style: preserve-3d;
+-ms-transform-origin:(50% 100px 0);
+transform-style: preserve-3d;
+transform-origin:(50% 100px 0);				
+}
+
+#transDemo3 #Ycube, #transDemo3 #Zcube {
+-webkit-transform-style: preserve-3d;	
+-moz-transform-style: preserve-3d;	
+-o-transform-style: preserve-3d;	
+-ms-transform-style: preserve-3d;	
+transform-style: preserve-3d;					
+}
+
+#transDemo3 .face {
+position: absolute;
+height: 198px;
+width: 198px;
+padding: 1px;
+background-color: black;
+-webkit-backface-visibility: hidden;	
+-moz-backface-visibility: hidden;	
+-o-backface-visibility: hidden;	
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;					
+}
+
+#transDemo3 .face div {
+width: 64px;
+height: 64px;
+float: left;
+margin: 1px;
+}
+
+/* different sides of the cube ****************************************************************/
+
+/* front ******************************************************/
+
+#cube .front {
+-webkit-transform: translateZ(100px);
+-moz-transform: translateZ(100px);
+-o-transform: translateZ(100px);
+-ms-transform: translateZ(100px);
+transform: translateZ(100px);				
+}
+
+.front .one {
+background-color: orange;
+}
+
+.front .two {
+background-color: lightgreen;
+}
+
+.front .three {
+background-color: red;
+}
+
+.front .four {
+background-color: red;
+}
+
+.front .five {
+background-color: blue;
+}
+
+.front .six {
+background-color: orange;
+}
+
+.front .seven {
+background-color: white;
+}
+
+.front .eight {
+background-color: yellow;
+}
+
+.front .nine {
+background-color: blue;
+}
+
+/* back ************************************************************/
+
+#cube .back {
+-webkit-transform: rotateY(180deg) translateZ(100px);
+-moz-transform: rotateY(180deg) translateZ(100px);
+-o-transform: rotateY(180deg) translateZ(100px);
+-ms-transform: rotateY(180deg) translateZ(100px);
+transform: rotateY(180deg) translateZ(100px);					
+}
+
+.back .one {
+background-color: lightgreen;
+}
+
+.back .two {
+background-color: blue;
+}
+
+.back .three {
+background-color: orange;
+}
+
+.back .four {
+background-color: white;
+}
+
+.back .five {
+background-color: lightgreen;
+}
+
+.back .six {
+background-color: red;
+}
+
+.back .seven {
+background-color: yellow;
+}
+
+.back .eight {
+background-color: blue;
+}
+
+.back .nine {
+background-color: orange;
+}
+
+/* right ***********************************************************/
+
+#cube .right {
+-webkit-transform: rotateY(90deg) translateZ(100px);
+-moz-transform: rotateY(90deg) translateZ(100px);	
+-o-transform: rotateY(90deg) translateZ(100px);
+-ms-transform: rotateY(90deg) translateZ(100px);
+transform: rotateY(90deg) translateZ(100px);		
+}
+
+.right .one {
+background-color: white;
+}
+
+.right .two {
+background-color: white;
+}
+
+.right .three {
+background-color: yellow;
+}
+
+.right .four {
+background-color: yellow;
+}
+
+.right .five {
+background-color: red;
+}
+
+.right .six {
+background-color: lightgreen;
+}
+
+.right .seven {
+background-color: red;
+}
+
+.right .eight {
+background-color: orange;
+}
+
+.right .nine {
+background-color: blue;
+}
+
+/* left ************************************************************/
+
+#cube .left {
+-webkit-transform: rotateY(-90deg) translateZ(100px);
+-moz-transform: rotateY(-90deg) translateZ(100px);
+-o-transform: rotateY(-90deg) translateZ(100px);
+-ms-transform: rotateY(-90deg) translateZ(100px);
+transform: rotateY(-90deg) translateZ(100px);				
+}
+
+.left .one {
+background-color: white;
+}
+
+.left .two {
+background-color: lightgreen;
+}
+
+.left .three {
+background-color: yellow;
+}
+
+.left .four {
+background-color: yellow;
+}
+
+.left .five {
+background-color: orange;
+}
+
+.left .six {
+background-color: white;
+}
+
+.left .seven {
+background-color: white;
+}
+
+.left .eight {
+background-color: blue;
+}
+
+.left .nine {
+background-color: red;
+}
+
+/* top *******************************************************************/
+
+#cube .top  {
+-webkit-transform: rotateX(90deg) translateZ(100px);
+-moz-transform: rotateX(90deg) translateZ(100px);
+-o-transform: rotateX(90deg) translateZ(100px);
+-ms-transform: rotateX(90deg) translateZ(100px);			
+transform: rotateX(90deg) translateZ(100px);				
+}
+
+.top .one {
+background-color: lightgreen;
+}
+
+.top .two {
+background-color: orange;
+}
+
+.top .three {
+background-color: red;
+}
+
+.top .four {
+background-color: yellow;
+}
+
+.top .five {
+background-color: white;
+}
+
+.top .six {
+background-color: orange;
+}
+
+.top .seven {
+background-color: lightgreen;
+}
+
+.top .eight {
+background-color: red;
+}
+
+.top .nine {
+background-color: blue;
+}
+
+/* bottom *******************************************************************/
+
+#cube .bottom {
+-webkit-transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
+-moz-transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
+-o-transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
+-ms-transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
+transform: rotateX(-90deg) translateZ(100px) rotate(180deg);				
+}
+
+.bottom .one {
+background-color: lightgreen;
+}
+
+.bottom .two {
+background-color: blue;
+}
+
+.bottom .three {
+background-color: yellow;
+}
+
+.bottom .four {
+background-color: white;
+}
+
+.bottom .five {
+background-color: yellow;
+}
+
+.bottom .six {
+background-color: lightgreen;
+}
+
+.bottom .seven {
+background-color: blue;
+}
+
+.bottom .eight {
+background-color: red;
+}
+
+.bottom .nine {
+background-color: orange;
+}
+
+/* animation on hover **********************************************************************************/
+
+/* webkit keyframes ********************************************************/
+
+@-webkit-keyframes rotateCube {
+	0% {
+		-webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	50% {
+		-webkit-transform: rotateX(180deg) rotateY(180deg) rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+	}
+}
+
+/* moz keyframes ********************************************************/
+
+@-moz-keyframes rotateCube {
+	0% {
+		-moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	50% {
+		-moz-transform: rotateX(180deg) rotateY(180deg) rotateZ(0deg);
+	}
+	100% {
+		-moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(0deg);
+	}
+}
+
+/* hover **************************************************************/
+
+#cube:hover {
+	-webkit-animation-name: rotateCube;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: linear;	
+
+	-moz-animation-name: rotateCube;
+	-moz-animation-duration: 10s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: linear;	
+}
+
+/* controls *****************************************************************************/
+
+#td3controls {
+width:300px;
+float:right;
+}
+ 
+#td3controls label {
+float:left;
+width:150px;
+}
+ 
+#td3controls input {
+float:left;	
+width:150px;	
+}

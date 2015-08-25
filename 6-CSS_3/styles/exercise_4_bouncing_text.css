@@ -1,0 +1,108 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/* box **********************************************************************/
+
+#box {
+position: absolute;
+bottom: 6%;
+left: 2%;
+border: 5px solid red;
+width: 180px;
+height: 100px;
+}
+
+/* webkit keyframes ********************************************************/
+
+@-webkit-keyframes jump-text {
+	0% {
+		bottom: 10%;
+		left: 5%;
+	}
+	
+	20% {
+		bottom: 90%;
+		left: 20%;
+	}
+	
+	40% {
+		bottom: 0%;
+		left: 40%;
+	}
+	
+	60% {
+		bottom: 70%;
+		left: 60%;
+	}
+	
+	80% {
+		bottom: 0%;
+		left: 70%;
+	}
+	
+	100% {
+		bottom: 30%;
+		left: 90%;
+	}
+}
+
+/* moz keyframes ********************************************************/
+
+@-moz-keyframes jump-text {
+	0% {
+		bottom: 10%;
+		left: 5%;
+	}
+	
+	20% {
+		bottom: 90%;
+		left: 20%;
+	}
+	
+	40% {
+		bottom: 0%;
+		left: 40%;
+	}
+	
+	60% {
+		bottom: 70%;
+		left: 60%;
+	}
+	
+	80% {
+		bottom: 0%;
+		left: 70%;
+	}
+	
+	100% {
+		bottom: 30%;
+		left: 90%;
+	}
+}
+
+/* animated text ************************************************/
+
+#animation {
+position: absolute;
+bottom: 10%;
+left: 5%;
+font-size:50px;
+color: black; 
+text-shadow: rgba(20, 20, 20, 0.5) 1px 1px 5px;
+}
+
+#animation {
+	-webkit-animation-name: jump-text;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 2;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;	
+
+	-moz-animation-name: jump-text;
+	-moz-animation-duration: 3s;
+	-moz-animation-iteration-count: 2;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: ease-in-out;	
+}

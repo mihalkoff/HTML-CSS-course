@@ -1,0 +1,60 @@
+div {
+border: 10px dashed #FAF8C8;
+width: 386px;
+border-radius: 10px;
+}
+
+table {
+background-color: #595959;
+font-family: Arial, sans-serif;
+font-size: 12px;
+height: 210px;
+white-space: nowrap;
+}
+
+th {
+text-align: left;
+font-weight: normal;
+font-size: 20px;
+}
+
+td {
+vertical-align: top;
+}
+
+a {
+color: #DDD68A;
+text-decoration: none;
+}
+
+.column1 {
+width: 130px;
+}
+
+.column2 {
+width: 250px;
+}
+
+.whiteText {
+color: white;
+font-style: italic;
+}
+
+.greyText {
+color: #A5A5A5;
+}
+
+.redText {
+color: red;
+}
+
+.orangeText {
+color: #E0692F; 
+}
+
+.greenDot {
+background-image: url("../images/greenDot.png");
+background-position: left 2px; 
+background-repeat: no-repeat;
+padding-left: 13px;
+}

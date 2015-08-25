@@ -1,0 +1,117 @@
+.all {
+font-family: Corbel, Tahoma, sans-serif;
+font-weight: bold;
+border: 3px solid #DAEDF2;
+border-radius: 2px;
+background-image: url("../images/slide.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 960px;
+height: 721px;
+top: 0px;
+left: 0px;
+}
+
+.css1 {
+background-image: url("../images/css1.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 151px;
+height: 151px;
+left: 250px;
+top: 65px;
+}
+
+.source {
+background-image: url("../images/source.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 434px;
+height: 213px;
+left: 490px;
+top: 40px;
+}
+
+.css2 {
+background-image: url("../images/css2.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 129px;
+height: 129px;
+left: 100px;
+top: 290px;
+}
+
+.presentation {
+position: absolute;
+width: 500px;
+height: 80px;
+left: 400px;
+top: 270px;
+text-align: right;
+padding-right: 30px;
+font-size: 45px;
+color: #D4FF5B;
+border-bottom: 5px solid #818B8D;
+}
+
+.doncho {
+position: absolute;
+left: 50px;
+top: 500px;
+line-height: 10px;
+}
+
+.minkov {
+font-size: 25px;
+color: #DEFF9B;
+#67B200
+}
+
+.trainer {
+font-size: 21px;
+color: #67B200;
+}
+
+.site {
+font-size: 19px;
+color: #67B200;
+}
+
+.site a {
+color: #67B200;
+}
+
+.course {
+font-size: 20px;
+color: white;
+}
+
+.html5 {
+font-size: 18px;
+color: #67B200;
+}
+
+.html5 a {
+color: #67B200;
+}
+
+.css3 {
+background-image: url("../images/css3.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 313px;
+height: 313px;
+left: 250px;
+top: 400px;
+}
+
+.ninja {
+background-image: url("../images/ninja.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 466px;
+height: 385px;
+left: 530px;
+top: 340px;
+}
